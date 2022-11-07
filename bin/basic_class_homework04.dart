@@ -8,16 +8,16 @@ create an object named "p2" whose name is "Shavkat"
 */
 class Person {
     String name='abror';
-    String name1='olim';
-    Person(String p1,String p2 ){
-        this.name=p1;
-        this.name1=p2;
+    Person(String name ){
+        this.name=name;
+
     }
   }
 
 void main() {
-    Person x=Person('anvar','shavkat');
-    print(x.name);
-    print(x.name1);
+    Person p1=Person('anvar');
+    Person p2=Person('shavkat');
+    print(p1.name);
+    print(p2.name);
 }
 

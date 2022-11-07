@@ -11,19 +11,17 @@ Create an object named "p3" whose name is "Jasur"
 
 class Person {
     String name='abror';
-    String name1='olim';
-    String name3='ali';
-    Person(String p1,String p2,String p3 ){
-        this.name=p1;
-        this.name1=p2;
-        this.name3=p3;
+    Person(String name){
+        this.name=name;
     }
   }
 
 void main() {
-    Person x=Person('anvar','shavkat','jasur');
-    print(x.name);
-    print(x.name1);
-    print(x.name3);
+    Person p1=Person('anvar');
+       Person p2=Person('shavkat');
+          Person p3=Person('jasur');
+    print(p1.name);
+    print(p2.name);
+    print(p3.name);
 }
 
