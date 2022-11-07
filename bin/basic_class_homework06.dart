@@ -6,8 +6,8 @@ Create a "Person" class that has a name("name") and a age("age")
 
 
 class Person {
-    String name='abror';
-    int age=24;
+    String name='ali';
+    int age=25;
     
   }
 
